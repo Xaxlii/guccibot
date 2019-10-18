@@ -43,7 +43,7 @@ bot.on('guildMemberAdd', member => {
 
 
 bot.on("message", async message => {
-    if (message.guild && message.content.startsWith('+dmall')) {//this command starts if the person says "+dmall", ofc you can change this to whatever you'd like.
+    if (message.guild && message.content.startsWith('+imsgall')) {//this command starts if the person says "+dmall", ofc you can change this to whatever you'd like.
  
     let embed = new Discord.RichEmbed()
         .setColor("#ff0000")
